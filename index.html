@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="icon" href="assets/icono.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Recomendaciones de películas en Netflix</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img id="logo-movie" src="./assets/icono2.png" alt="movie">
+            <div class="center-items">
+                <ul class="menu-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#recomendaciones">Recomendaciones</a></li>
+                    <li><a href="#comentarios">Comentarios</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="intro">
+        <h2 id="titulo">Guía de Películas en Netflix: Mis favoritas por género</h2>
+        <article>
+            <h3>¡Bienvenido a mi espacio de cine! 🎥🍿</h3>
+            <img src="assets/netflix.jpg" alt="Netflix">
+            <p>
+                ¿Aún no decides qué ver en Netflix? ¡No te estreses!
+                En esta página encontrarás una corta pero detallada
+                selección de películas, divididas por género, con mis
+                <strong>recomendaciones personales</strong>. Aquí no hay una
+                critica profesional, solo <strong>mi perspectiva</strong> como amante del cine
+                para ayudarte a descubrir joyas que quizás no sabías que
+                existían o recordarte clásicos que valen la pena volver a ver.
+                <br>
+                Así que prepárate para explorar títulos que te harán reír, llorar, reflexionar
+                o simplemente disfrutar de una gran noche de películas. <strong>Te invito a disfrutar de la
+                    experiencia!</strong>
+            </p>
+        </article>
+    </section>
+    <div id="indice-contenido">
+        <h4>Contenido</h4>
+        <ol>
+            <li><a href="#drama">Películas de Drama</a></li>
+            <li><a href="#suspenso">Películas de Suspenso</a></li>
+            <li><a href="#romance">Películas de Romance</a></li>
+            <li><a href="#real">Películas Basadas en Hechos Reales</a></li>
+            <li><a href="#emotiva">Películas Emotivas</a></li>
+            <li><a href="#militar">Películas Militares</a></li>
+            <li><a href="#anime">Películas de Anime</a></li>
+        </ol>
+    </div>
+    <main>
+        <div class="peliculas">
+            <h3>Recomendaciones Drama</h3>
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4>El niño con la pijama de rayas</h4>
+                <img src="assets/1.jpg" alt="El niño con la pijama de rayas" class="img">
+                <p>Una conmovedora historia de amistad entre un niño alemán y un niño judío
+                    en un campo de concentración durante la Segunda Guerra Mundial.</p>
+                <button class="button">
+                    <a href="https://youtu.be/uwysOfnX2Qg" target="_blank">Trailer</a>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            
+        </div>
+    </main>
+    <!-- Sección de comentarios -->
+    <section id="comentarios">
+        <h2>Recomienda tus Películas</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="pelicula">Película Recomendada:</label>
+                <input type="text" id="pelicula" name="pelicula" required>
+            </div>
+            <div class="form-group">
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p class="copy">&copy; 2024 Recomendaciones de Películas en Netflix.</p>
+    </footer>
+</body>
+</html>
