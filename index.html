@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="icon" href="assets/icono.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Recomendaciones de películas en Netflix</title>
 </head>
@@ -14,10 +17,11 @@
     <header>
         <nav>
             <img id="logo-movie" src="./assets/icono2.png" alt="movie">
+            <h1 class="titulo">RinconCine</h1>
             <div class="center-items">
                 <ul class="menu-list">
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#recomendaciones">Recomendaciones</a></li>
+                    <li><a href="#intro">Inicio</a></li>
+                    <li><a href="#peliculas">Recomendaciones</a></li>
                     <li><a href="#comentarios">Comentarios</a></li>
                 </ul>
             </div>
@@ -27,8 +31,9 @@
         <h2 id="titulo">Guía de Películas en Netflix: Mis favoritas por género</h2>
         <article>
             <h3>¡Bienvenido a mi espacio de cine! 🎥🍿</h3>
-            <img src="assets/netflix.jpg" alt="Netflix">
-            <p>
+            <img src="assets/netflix.jpg" alt="Netflix" class="intro-img">
+            <div class="intro-text">
+                <p>
                 ¿Aún no decides qué ver en Netflix? ¡No te estreses!
                 En esta página encontrarás una corta pero detallada
                 selección de películas, divididas por género, con mis
@@ -40,41 +45,79 @@
                 Así que prepárate para explorar títulos que te harán reír, llorar, reflexionar
                 o simplemente disfrutar de una gran noche de películas. <strong>Te invito a disfrutar de la
                     experiencia!</strong>
-            </p>
+                </p>
+            </div>
         </article>
     </section>
-    <div id="indice-contenido">
-        <h4>Contenido</h4>
-        <ol>
-            <li><a href="#drama">Películas de Drama</a></li>
-            <li><a href="#suspenso">Películas de Suspenso</a></li>
-            <li><a href="#romance">Películas de Romance</a></li>
-            <li><a href="#real">Películas Basadas en Hechos Reales</a></li>
-            <li><a href="#emotiva">Películas Emotivas</a></li>
-            <li><a href="#militar">Películas Militares</a></li>
-            <li><a href="#anime">Películas de Anime</a></li>
-        </ol>
-    </div>
-    <main>
-        <div class="peliculas">
-            <h3>Recomendaciones Drama</h3>
+    <section id="indice">
+        <div id="indice-contenido">
+            <h4>Contenido</h4>
+            <hr>
+            <ol class="indice-list">
+                <li><a href="#drama">Películas de Drama</a></li>
+                <li><a href="#suspenso">Películas de Suspenso</a></li>
+                <li><a href="#romance">Películas de Romance</a></li>
+                <li><a href="#real">Películas Basadas en Hechos Reales</a></li>
+                <li><a href="#emotiva">Películas Emotivas</a></li>
+                <li><a href="#militar">Películas Militares</a></li>
+                <li><a href="#anime">Películas de Anime</a></li>
+            </ol>
+        </div>
+    </section>
+    <main id="seleccion">
+        <h2 class="titulo-seccion">Recomendaciones Drama</h2>
+        <div id="peliculas">
             <!-- cartel -->
             <div class="cartel-pelicula">
                 <h4>El niño con la pijama de rayas</h4>
                 <img src="assets/1.jpg" alt="El niño con la pijama de rayas" class="img">
-                <p>Una conmovedora historia de amistad entre un niño alemán y un niño judío
+                <p class="resumen">Una conmovedora historia de amistad entre un niño alemán y un niño judío
                     en un campo de concentración durante la Segunda Guerra Mundial.</p>
                 <button class="button">
                     <a href="https://youtu.be/uwysOfnX2Qg" target="_blank">Trailer</a>
                 </button>
             </div>
             <!-- fin de cartel -->
+             <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4>En busca de la felicidad</h4>
+                <img src="assets/2.jpg" alt="El niño con la pijama de rayas" class="img">
+                <p class="resumen">Basada en una historia real, sigue a un hombre que lucha contra la adversidad 
+                    para proporcionar un futuro mejor para su hijo.</p>
+                <button class="button">
+                    <a href="https://youtu.be/uwysOfnX2Qg" target="_blank">Trailer</a>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+             <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4>El niño con la pijama de rayas</h4>
+                <img src="assets/2.jpg" alt="El niño con la pijama de rayas" class="img">
+                <p class="resumen">Una conmovedora historia de amistad entre un niño alemán y un niño judío
+                    en un campo de concentración durante la Segunda Guerra Mundial.</p>
+                <button class="button">
+                    <a href="https://youtu.be/uwysOfnX2Qg" target="_blank">Trailer</a>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+              <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4>El niño con la pijama de rayas</h4>
+                <img src="assets/2.jpg" alt="El niño con la pijama de rayas" class="img">
+                <p class="resumen">Una conmovedora historia de amistad entre un niño alemán y un niño judío
+                    en un campo de concentración durante la Segunda Guerra Mundial.</p>
+                <button class="button">
+                    <a href="https://youtu.be/uwysOfnX2Qg" target="_blank">Trailer</a>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+             
             
         </div>
     </main>
     <!-- Sección de comentarios -->
     <section id="comentarios">
-        <h2>Recomienda tus Películas</h2>
+        <h2 class="titulo-seccion">Recomienda tus Películas</h2>
         <form action="#" method="post">
             <div class="form-group">
                 <label for="nombre">Nombre:</label>
