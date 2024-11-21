@@ -1,7 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    border: box;
+}
+body{
+    background-color: #1a1a1a;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    color: white;
 }
 footer{
     text-align: center;
@@ -15,27 +20,151 @@ header nav{
     background: rgb(26,26,29);
     background: linear-gradient(48deg, rgba(26,26,29,1) 0%, rgba(233,35,238,1) 0%, rgba(16,158,250,1) 100%);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 #logo-movie{
-    width: 70px;
-    padding: 5px;
-    margin: 20px;
+    width: 30px;
+    padding: 15px;
+    margin: 5px;
+}
+.titulo{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.center-items {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
 }
 .menu-list{
-    display:contents
+    display:flex;
 }
 
 .menu-list li{
     list-style: none;
-    padding: 10px 12px;
+    padding: 12px 50px;
 }
 
 .menu-list a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
+}
+#intro{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro-img{
+    width: 900px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.intro-text{
     font-size: 20px;
+    width: 700px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#indice{
+    background-color: #EBF4F6;
+    border: 2px solid #0089e2;
+    width: 700px;
+    display: flex;
+    justify-content:left;
+    border-radius: 25px;
+    margin: auto;
+}
+hr{
+    border: 2px solid #0089e2;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#indice-contenido{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: justify;
+    padding: 20px;
+}
+
+#indice-contenido h4{
+    color: #0089e2;
+}
+#indice-contenido ol{
+    margin-top: 10px;
+    color: #0089e2;
+}
+
+.indice-list a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.indice-list a:hover{
+    text-decoration: underline;
+}
+
+.titulo-seccion{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#peliculas{
+    columns: 3 235px;
+    margin: auto;
+
+}
+#selecciom{
+    display: flex;
+
+}
+
+.cartel-pelicula{
+    background-color: #302f2f;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.cartel-pelicula img{
+    width: 235px;
+    border-radius: 25px;
+}
+.resumen{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 235px;
+}
+
+.button{
+    margin-top: 10px;
+    background-color: #0089e2;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.button:hover{
+    background-color: #036fb5;
 }
