@@ -19,6 +19,7 @@ header nav{
     background-color:#333 ;
     background: rgb(26,26,29);
     background: linear-gradient(48deg, rgba(26,26,29,1) 0%, hsl(299, 86%, 54%) 0%, rgba(16,158,250,1) 100%);
+    box-shadow: 0 4px 4px rgba(43, 162, 241, 0.205);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -198,4 +199,67 @@ header nav{
     border: 2px solid #9040d1;
     width: 90%;
     margin-bottom: 15px;
+}
+
+#sugerencia{
+    text-align: justify;
+    width: 700px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.form-container{
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBF4F6;
+    border: 2px solid #0089e2;
+    width: 500px;
+    padding: 25px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.form-container form label{
+    font-size: 18px;        
+    margin-top: 20px;
+    margin-bottom: 6px;
+    color: #0089e2;
+    font-weight: bold;
+}
+
+.form-container form input, .form-container form textarea{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0089e2;
+    margin-bottom: 5px;
+}
+
+.form-container form button{
+    margin-top: 5px;
+    background-color: #0a94ed;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+.form-container form button:hover{
+    background-color: #0580d3;
 }
