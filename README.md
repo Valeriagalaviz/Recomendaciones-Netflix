@@ -1,4 +1,4 @@
-# 🎥 Recomendaciones de Películas en Netflix por Género  
+# Recomendaciones de Películas en Netflix por Género  
 
 Este proyecto es mi entrega final para el módulo 1. Introducción a la programación del **Curso Frontend Bécalos | DEV.F**.
 
@@ -25,12 +25,12 @@ Este proyecto es mi entrega final para el módulo 1. Introducción a la programa
 ## Enlace al Repositorio
 
 Puedes acceder al código fuente del proyecto en el siguiente enlace de GitHub:  
-[Repositorio en GitHub](https://github.com/tu-usuario/rinconcine)
+[Repositorio en GitHub](https://github.com/Valeriagalaviz/Recomendaciones-Netflix.git)
 
 ## Enlace al Proyecto en Línea
 
 Puedes ver la página en línea en la siguiente URL:  
-[Proyecto en GitHub Pages](https://tu-usuario.github.io/rinconcine)
+[Proyecto en GitHub Pages](https://valeriagalaviz.github.io/Recomendaciones-Netflix/)
 
 ## Estructura del Proyecto
 
@@ -53,7 +53,7 @@ cd Recomendaciones-Netflix
 En Windows: Haz doble clic en el archivo index.html.
 
 4. **Visualización en línea:** 
-Puedes ver el proyecto en línea en el siguiente enlace: - [Ver el Proyecto]()
+Puedes ver el proyecto en línea en el siguiente enlace: - [Ver el Proyecto](https://valeriagalaviz.github.io/Recomendaciones-Netflix/)
 
 ## Créditos
 
