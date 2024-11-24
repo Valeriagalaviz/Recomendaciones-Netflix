@@ -8,7 +8,9 @@
     <link rel="icon" href="assets/icono.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Recomendaciones de películas en Netflix</title>
 </head>
@@ -16,12 +18,12 @@
 <body>
     <header>
         <nav>
-            <img id="logo-movie" src="./assets/icono2.png" alt="movie">
-            <h1 class="titulo">RinconCine</h1>
+            <img id="logo-movie" src="./assets/icono1.png" alt="movie">
+            <h1 class="nombre-pagina">RinconCine</h1>
             <div class="center-items">
                 <ul class="menu-list">
-                    <li><a href="#intro">Inicio</a></li>
-                    <li><a href="#peliculas">Recomendaciones</a></li>
+                    <li><a href="#titulo">Inicio</a></li>
+                    <li><a href="#indice">Recomendaciones</a></li>
                     <li><a href="#comentarios">Comentarios</a></li>
                 </ul>
             </div>
@@ -34,17 +36,17 @@
             <img src="assets/netflix.jpg" alt="Netflix" class="intro-img">
             <div class="intro-text">
                 <p>
-                ¿Aún no decides qué ver en Netflix? ¡No te estreses!
-                En esta página encontrarás una corta pero detallada
-                selección de películas, divididas por género, con mis
-                <strong>recomendaciones personales</strong>. Aquí no hay una
-                critica profesional, solo <strong>mi perspectiva</strong> como amante del cine
-                para ayudarte a descubrir joyas que quizás no sabías que
-                existían o recordarte clásicos que valen la pena volver a ver.
-                <br>
-                Así que prepárate para explorar títulos que te harán reír, llorar, reflexionar
-                o simplemente disfrutar de una gran noche de películas. <strong>Te invito a disfrutar de la
-                    experiencia!</strong>
+                    ¿Aún no decides qué ver en Netflix? ¡No te estreses!
+                    En esta página encontrarás una corta pero detallada
+                    selección de películas, divididas por género, con mis
+                    <strong>recomendaciones personales</strong>. Aquí no hay una
+                    critica profesional, solo <strong>mi perspectiva</strong> como amante del cine
+                    para ayudarte a descubrir joyas que quizás no sabías que
+                    existían o recordarte clásicos que valen la pena volver a ver.
+                    <br>
+                    Así que prepárate para explorar títulos que te harán reír, llorar, reflexionar
+                    o simplemente disfrutar de una gran noche de películas. <strong>Te invito a disfrutar de la
+                        experiencia!</strong>
                 </p>
             </div>
         </article>
@@ -52,89 +54,611 @@
     <section id="indice">
         <div id="indice-contenido">
             <h4>Contenido</h4>
-            <hr>
+            <hr id="separador-indice">
             <ol class="indice-list">
-                <li><a href="#drama">Películas de Drama</a></li>
-                <li><a href="#suspenso">Películas de Suspenso</a></li>
-                <li><a href="#romance">Películas de Romance</a></li>
-                <li><a href="#real">Películas Basadas en Hechos Reales</a></li>
-                <li><a href="#emotiva">Películas Emotivas</a></li>
-                <li><a href="#militar">Películas Militares</a></li>
-                <li><a href="#anime">Películas de Anime</a></li>
+                <li><a href="#peliculas-drama">Películas de Drama</a></li>
+                <li><a href="#peliculas-suspenso">Películas de Suspenso</a></li>
+                <li><a href="#peliculas-romance">Películas de Romance</a></li>
+                <li><a href="#peliculas-real">Películas Basadas en Hechos Reales</a></li>
+                <li><a href="#peliculas-emotiva">Películas Emotivas</a></li>
+                <li><a href="#peliculas-militar">Películas Militares</a></li>
+                <li><a href="#peliculas-anime">Películas de Anime</a></li>
             </ol>
         </div>
     </section>
-    <main id="seleccion">
+    <main>
         <h2 class="titulo-seccion">Recomendaciones Drama</h2>
-        <div id="peliculas">
+        <span id="peliculas-drama">
             <!-- cartel -->
             <div class="cartel-pelicula">
-                <h4>El niño con la pijama de rayas</h4>
-                <img src="assets/1.jpg" alt="El niño con la pijama de rayas" class="img">
-                <p class="resumen">Una conmovedora historia de amistad entre un niño alemán y un niño judío
-                    en un campo de concentración durante la Segunda Guerra Mundial.</p>
-                <button class="button">
-                    <a href="https://youtu.be/uwysOfnX2Qg" target="_blank">Trailer</a>
+                <h4 class="titulo-pelicula">El niño con la pijama de rayas</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/1.jpg" alt="pel1" class="img">
+                <p class="resumen"> En medio de la Segunda Guerra Mundial, un niño alemán entabla una amistad inocente
+                    con un niño judío tras una cerca de un campo de concentración, una conexión que desafía el horror
+                    que los rodea.</p>
+                <button class="button" onclick="window.open('https://youtu.be/uwysOfnX2Qg', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">En busca de la felicidad (2006)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/2.jpg" alt="pel2" class="img">
+                <p class="resumen"> La inspiradora historia de un padre que, a pesar de la pobreza y el desempleo,
+                    lucha incansablemente para construir un futuro mejor para él y su hijo pequeño.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/DMOBlEcRuw8', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Vidas de papel (2021)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/3.jpeg" alt="pel3" class="img">
+                <p class="resumen">Mehmet, un recolector de basura en Estambul, encuentra a un niño abandonado en su
+                    lugar
+                    de trabajo. Lo que comienza como un acto de bondad cambia la vida de ambos para siempre.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/4-2lfBe3GSA', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">The Reader: Una pasión secreta (2008)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/4.jpg" alt="pel4" class="img">
+                <p class="resumen">Michael, un joven alemán, vive un romance con Hanna, una mujer mayor. Años después,
+                    sus
+                    caminos se cruzan en un juicio por crímenes de guerra, revelando secretos que cambiarán sus vidas.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/DMOBlEcRuw8', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Adú (2020)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/5.jpg" alt="pel5" class="img">
+                <p class="resumen">En un relato conmovedor, tres historias paralelas se entrelazan: un niño africano
+                    huye desesperadamente en
+                    busca de un futuro mejor, un activista enfrenta las duras realidades de la inmigración, y un guardia
+                    fronterizo lidia con un dilema moral.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/FxQ7Y3mgfec', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Animales nocturnos (2016)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/6.png" alt="pel6" class="img">
+                <p class="resumen">Una galerista insatisfecha con su vida recibe un manuscrito de su exesposo, un
+                    escritor al que dejó años atrás.
+                    La novela, oscura y violenta, es una metáfora de su relación pasada y la lleva a confrontar su
+                    pasado, sus elecciones y el costo de sus decisiones.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/Rst1HUh60_o', '_blank')">
+                    <p>Trailer</p>
                 </button>
             </div>
             <!-- fin de cartel -->
              <!-- cartel -->
             <div class="cartel-pelicula">
-                <h4>En busca de la felicidad</h4>
-                <img src="assets/2.jpg" alt="El niño con la pijama de rayas" class="img">
-                <p class="resumen">Basada en una historia real, sigue a un hombre que lucha contra la adversidad 
-                    para proporcionar un futuro mejor para su hijo.</p>
-                <button class="button">
-                    <a href="https://youtu.be/uwysOfnX2Qg" target="_blank">Trailer</a>
+                <h4 class="titulo-pelicula">Adiós señor Haffmann (2021)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/39.jpg" alt="pel39" class="img">
+                <p class="resumen">En la Francia ocupada por los nazis, el joyero Joseph Haffman, judío, se 
+                    esconde en casa de su empleado François. Un acuerdo que empieza como un acto de supervivencia 
+                    desata tensiones y dilemas morales en medio de la guerra.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/eDUf3eXgs1U', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+        </span>
+        <!-- Inicio de la sección de suspenso -->
+        <h2 class="titulo-seccion">Recomendaciones Suspenso</h2>
+        <span id="peliculas-suspenso">
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">El Ángel de la Muerte (2022)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/7.jpg" alt="pel7" class="img">
+                <p class="resumen"> Basada en hechos reales, narra la historia de un enfermero acusado de ser
+                    responsable de múltiples
+                    muertes en el hospital donde trabaja. Una colega, entre la lealtad y la verdad, se une a la
+                    investigación para desenmascarar la aterradora verdad.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/zyAOdEivEQ4', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">El Diablo a Todas Horas (2020)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/8.jpeg" alt="pel8" class="img">
+                <p class="resumen"> En un pueblo rural de Ohio, varias vidas se cruzan en una espiral de violencia, fe y
+                    corrupción. Entre predicadores oscuros y
+                    veteranos traumatizados, se teje una historia sombría sobre el mal humano.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/KtN6fpjRSHs', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Corre (2020)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/9.jpg" alt="pel9" class="img">
+                <p class="resumen">Chloe, una joven en silla de ruedas, comienza a sospechar que su madre la controla
+                    más de lo que parece. En una carrera contra el
+                    tiempo, descubre verdades impactantes sobre su vida y su salud.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/oZMPvPfk9WY', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Los crímenes de la academia (2022)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/10.jpg" alt="pel10" class="img">
+                <p class="resumen">Un detective veterano y un joven Edgar Allan Poe unen fuerzas para resolver una serie
+                    de asesinatos macabros en una academia militar.
+                    Misterios y giros inesperados llenan esta intriga gótica.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/HchYWQIdbYw', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+        </span>
+        <!-- Inicio de la sección de romance -->
+        <h2 class="titulo-seccion">Recomendaciones Romance</h2>
+        <span id="peliculas-romance">
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Cuestión de tiempo (2013)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/11.jpg" alt="pel11" class="img">
+                <p class="resumen"> Tim descubre que los hombres de su familia pueden viajar en el tiempo. Usando este
+                    don, busca mejorar su vida
+                    amorosa y conquistar a Mary, pero pronto aprende que el tiempo no puede resolver todos los problemas
+                    del corazón.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/DFZS34x1cb4', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Si yo tuviera 30 (2004)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/12.jpg" alt="pel12" class="img">
+                <p class="resumen"> Jenna, una adolescente de 13 años, desea desesperadamente ser adulta. Su deseo se
+                    hace realidad, y al
+                    despertar como una exitosa mujer de 30 años, descubre lo que realmente importa en la vida.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/y9pOmGkkKGE', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Como perder a un hombre en 10 días (2003)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/13.jpg" alt="pel13" class="img">
+                <p class="resumen">Andy, una periodista, escribe un artículo sobre cómo ahuyentar a un hombre en diez
+                    días. Mientras tanto, Ben,
+                    un publicista, apuesta que puede enamorar a cualquier mujer en el mismo tiempo. Sus planes chocan en
+                    esta divertida comedia romántica.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/EiHLFK7Fo0s', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Amonita (2020)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/14.jpeg" alt="pel14" class="img">
+                <p class="resumen">En el siglo XIX, Mary, una paleontóloga solitaria, inicia una intensa relación con
+                    Charlotte, una joven casada que busca
+                    sanar. Juntas encuentran en el amor un refugio para desafiar las convenciones sociales.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/3Zhsbdu5MjY', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+        </span>
+        <!-- Inicio de la sección basada en hechos reales -->
+        <h2 class="titulo-seccion">Recomendaciones Basadas en Hechos Reales</h2>
+        <span id="peliculas-real">
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Maudie (2016)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/15.jpg" alt="pel15" class="img">
+                <p class="resumen"> La historia de Maud Lewis, una mujer con artritis severa que encuentra en la pintura
+                    una forma de expresar su mundo interior.
+                    Su talento la lleva a convertirse en una artista reconocida, mientras construye una vida
+                    inesperadamente feliz con su esposo, Everett.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/iYt_SJ-9pCg', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">El pianista (2002)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/16.jpg" alt="pel16" class="img">
+                <p class="resumen"> Wladyslaw Szpilman, un talentoso pianista polaco, lucha por sobrevivir durante la
+                    ocupación nazi en Varsovia. A través de su
+                    música y su instinto de supervivencia, ofrece un poderoso testimonio de la resistencia humana en
+                    tiempos de guerra.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/BFwGqLa_oAo', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">El Rey (2019)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/17.jpg" alt="pel17" class="img">
+                <p class="resumen">El joven príncipe Hal, renuente heredero al trono inglés, se ve obligado a asumir el
+                    poder como Enrique V tras la muerte de
+                    su padre. Entre intrigas, guerras y alianzas, debe enfrentarse a los desafíos de liderar un reino
+                    dividido.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/VkrbZqCJaEk', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">El niño que domó el viento (2019)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/18.jpg" alt="pel18" class="img">
+                <p class="resumen">Basada en la vida de William Kamkwamba, un joven de Malaui que, enfrentando la
+                    hambruna, construyó un molino de viento para
+                    salvar a su comunidad. Una inspiradora historia de ingenio, resiliencia y esperanza.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/ifM9zdhK-oE', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+        </span>
+        <!-- Inicio de la sección de Emotivas -->
+        <h2 class="titulo-seccion">Recomendaciones Emotivas</h2>
+        <span id="peliculas-emotiva">
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">El Matrimonio Loving (2016)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/19.jpg" alt="pel19" class="img">
+                <p class="resumen"> Inspirada en una historia real, esta película relata la lucha de una pareja
+                    interracial por su derecho a casarse en los
+                    Estados Unidos de los años 60. Un retrato poderoso de amor y resistencia contra la injusticia.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/HYG8T9EtGbA', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Mi primer beso (1991)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/20.jpg" alt="pel20" class="img">
+                <p class="resumen"> Vada, una niña curiosa y sensible, vive su primer amor y enfrenta la pérdida en un
+                    verano inolvidable. Una película llena
+                    de emociones sobre el crecimiento y la importancia de la amistad
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/_JRODzZ0cjw', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">La razón de estar contigo (2017)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/21.jpg" alt="pel21" class="img">
+                <p class="resumen">Un perro llamado Bailey reflexiona sobre el significado de la vida mientras
+                    experimenta diferentes reencarnaciones.Su conexión con los humanos a lo largo de las décadas 
+                    es un recordatorio conmovedor del amor incondicional.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/t0vbLxwIDv8', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">BABEL (2006)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/22.jpg" alt="pel22" class="img">
+                <p class="resumen">Tres historias entrelazadas, ambientadas en diferentes países, muestran cómo una
+                    tragedia conecta a personas de distintas culturas. Un viaje emocional que explora la comunicación, 
+                    el entendimiento y las diferencias humanas.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/a2JpldeELLg', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+        </span>
+        <!-- Inicio de la sección de Militares -->
+        <h2 class="titulo-seccion">Recomendaciones Militares</h2>
+        <span id="peliculas-militar">
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Sin novedad en el frente (2022)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/23.jpg" alt="pel23" class="img">
+                <p class="resumen"> Un joven soldado alemán vive los horrores y la deshumanización de la Primera Guerra
+                    Mundial en el frente occidental. Un poderoso retrato de las consecuencias devastadoras de la guerra.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/EBk1lXQ7rcY', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Inquebrantable (2014)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/24.jpg" alt="pel24" class="img">
+                <p class="resumen"> La increíble historia de Louis Zamperini, un atleta olímpico convertido en soldado,
+                    que sobrevive en un bote salvavidas durante semanas y enfrenta duros años como prisionero de guerra japonés.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/GYqwwi2K8zA', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Beasts of No Nation (2015)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/25.jpg" alt="pel25" class="img">
+                <p class="resumen">Un niño es obligado a convertirse en soldado en un país africano desgarrado por la
+                    guerra civil. Una impactante narración sobre la pérdida de la inocencia y la brutalidad de los conflictos armados.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/-SDCc5Hj9bc', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">La batalla olvidada (2020)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/26.jpg" alt="pel26" class="img">
+                <p class="resumen">Tres historias entrelazadas, ambientadas en diferentes países, muestran cómo una
+                    tragedia conecta a personas de distintas
+                    culturas. Un viaje emocional que explora la comunicación, el entendimiento y las diferencias
+                    humanas.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/6J3oTyp3Bko', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+        </span>
+        <!-- Inicio de la sección de Anime -->
+        <h2 class="titulo-seccion">Recomendaciones Anime</h2>
+        <span id="peliculas-anime">
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">El increíble castillo vagabundo (2004)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/27.jpg" alt="pel27" class="img">
+                <p class="resumen"> Sophie, una joven que vive una vida tranquila, es víctima de un hechizo que la transforma en 
+                    una anciana. Su camino la lleva al castillo de Howl, un mago enigmático. Juntos, descubren el poder del amor, la valentía y la autoaceptación.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/TioZt2aBZVE', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">La princesa Mononoke (1997)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/28.jpg" alt="pel28" class="img">
+                <p class="resumen"> Ashitaka, un joven príncipe, se encuentra en medio de un feroz conflicto 
+                    entre los humanos, y los dioses de la naturaleza, encabezados por San, la princesa Mononoke. 
+                    Una historia épica que explora temas de destrucción ambiental, redención y coexistencia.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/NixsPRMfqV0', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">El regreso del gato (2002)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/29.jpg" alt="pel29" class="img">
+                <p class="resumen">Haru, una chica ordinaria, se ve arrastrada al reino de los gatos tras salvar la vida 
+                    de un felino. Allí, debe descubrir su valentía y astucia para regresar al mundo humano. Con humor, 
+                    magia y un encantador desfile de personajes, esta película es una celebración de la amistad y la identidad.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/Gp-H_YOcYTM', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">El viaje de Chihiro (2001)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/30.jpg" alt="pel30" class="img">
+                <p class="resumen">Chihiro, una niña atrapada en un mundo mágico lleno de espíritus y criaturas fantásticas, se embarca en una increíble aventura para 
+                    salvar a sus padres. Una odisea donde aprende valiosas lecciones sobre la valentía, la lealtad y la importancia de ser fiel a uno mismo.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/LmKI2rg3-NA', '_blank')">
+                    <p>Trailer</p>
                 </button>
             </div>
             <!-- fin de cartel -->
              <!-- cartel -->
             <div class="cartel-pelicula">
-                <h4>El niño con la pijama de rayas</h4>
-                <img src="assets/2.jpg" alt="El niño con la pijama de rayas" class="img">
-                <p class="resumen">Una conmovedora historia de amistad entre un niño alemán y un niño judío
-                    en un campo de concentración durante la Segunda Guerra Mundial.</p>
-                <button class="button">
-                    <a href="https://youtu.be/uwysOfnX2Qg" target="_blank">Trailer</a>
+                <h4 class="titulo-pelicula">El mundo secreto de Arrietty (2010)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/31.jpg" alt="pel31" class="img">
+                <p class="resumen"> Arrietty, una joven de una familia diminuta que vive bajo el suelo de una casa, desafía las 
+                    reglas para explorar el mundo humano. Su encuentro con un niño humano enfermo desencadena una amistad inesperada que pone en riesgo su vida secreta.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/u8gCNCjCO2w', '_blank')">
+                    <p>Trailer</p>
                 </button>
             </div>
             <!-- fin de cartel -->
-              <!-- cartel -->
+            <!-- cartel -->
             <div class="cartel-pelicula">
-                <h4>El niño con la pijama de rayas</h4>
-                <img src="assets/2.jpg" alt="El niño con la pijama de rayas" class="img">
-                <p class="resumen">Una conmovedora historia de amistad entre un niño alemán y un niño judío
-                    en un campo de concentración durante la Segunda Guerra Mundial.</p>
-                <button class="button">
-                    <a href="https://youtu.be/uwysOfnX2Qg" target="_blank">Trailer</a>
+                <h4 class="titulo-pelicula">El recuerdo de Marnie (2014)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/32.jpg" alt="pel32" class="img">
+                <p class="resumen"> Anna, una adolescente solitaria con problemas de autoestima, descubre una antigua mansión 
+                    abandonada y conoce a Marnie, una chica que parece esconder un pasado lleno de secretos.
+                    Esta obra explora temas como la identidad, el perdón y el poder de los recuerdos.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/hF7SwV4K_fw', '_blank')">
+                    <p>Trailer</p>
                 </button>
             </div>
             <!-- fin de cartel -->
-             
-            
-        </div>
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Belle (2021)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/33.jpg" alt="pel33" class="img">
+                <p class="resumen">Suzu, una adolescente tímida, encuentra en el universo virtual "U" la confianza para transformarse 
+                    en Belle, una cantante adorada por millones. Allí conoce a "La Bestia," una figura misteriosa con un dolor oculto. 
+                    La historia explora el poder de la conexión y la autoaceptación.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/SgVUft_Ogkg', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Se levanta el viento (2013)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/34.jpg" alt="pel34" class="img">
+                <p class="resumen">un joven ingeniero aeronáutico apasionado por crear aviones. Ambientada en un Japón 
+                    en transformación, la película entrelaza su lucha por cumplir sus sueños con los retos de la guerra y 
+                    una conmovedora historia de amor. 
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/1gWv1_38-_8', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+             <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Suzume (2022)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/35.jpeg" alt="pel35" class="img">
+                <p class="resumen">Suzume, descubre un misterioso poder que le permite cerrar puertas 
+                    mágicas conectadas a desastres naturales.  Suzume aprende a enfrentar su pasado, proteger el presente y construir su futuro.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/AypcdM49NRk', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">La tumba de las luciérnagas (1988)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/36.jpg" alt="pel36" class="img">
+                <p class="resumen">Dos hermanos, Seita y Setsuko, enfrentan los horrores de la Segunda Guerra Mundial en Japón.
+                     Mientras luchan por sobrevivir en un mundo devastado, su relación se convierte en un poderoso testimonio de amor incondicional.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/6J3oTyp3Bko', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Nausicaä del Valle del Viento (1984)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/37.jpg" alt="pel37" class="img">
+                <p class="resumen">En un mundo devastado por la contaminación, Nausicaä, una princesa visionaria, lucha por salvar su hogar y 
+                    restaurar la armonía entre la humanidad y la naturaleza. Una narrativa llena de acción, sensibilidad y mensajes ecológicos.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/ysdva5zqFXU', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+            <!-- cartel -->
+            <div class="cartel-pelicula">
+                <h4 class="titulo-pelicula">Kiki: entregas a domicilio (1989)</h4>
+                <hr class="separador-pelicula">
+                <img src="assets/38.jpg" alt="pel38" class="img">
+                <p class="resumen">Kiki, una joven bruja en busca de independencia, se muda a una nueva ciudad para poner a prueba sus habilidades. 
+                    Mientras enfrenta desafíos, aprende valiosas lecciones sobre confianza, perseverancia 
+                    y la importancia de encontrar su lugar en el mundo.
+                </p>
+                <button class="button" onclick="window.open('https://youtu.be/uVWOcyJlmas', '_blank')">
+                    <p>Trailer</p>
+                </button>
+            </div>
+            <!-- fin de cartel -->
+        </span>
+
+
     </main>
     <!-- Sección de comentarios -->
     <section id="comentarios">
         <h2 class="titulo-seccion">Recomienda tus Películas</h2>
+        <p id="sugerencia">Me te gustaria saber si consideras que debería agregar alguna película que te guste y no se
+            enceuntra en la sección de recomendaciones, puedes dejar tu sugerencia en el siguiente formulario!</p>
         <form action="#" method="post">
-            <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="pelicula">Película Recomendada:</label>
-                <input type="text" id="pelicula" name="pelicula" required>
-            </div>
-            <div class="form-group">
-                <label for="comentario">Comentario:</label>
-                <textarea id="comentario" name="comentario" rows="4" required></textarea>
-            </div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="genero">Género:</label>
+            <input type="text" id="genero" name="genero" required>
+
+            <label for="pelicula">Película Recomendada:</label>
+            <input type="text" id="pelicula" name="pelicula" required>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
             <button type="submit">Enviar</button>
         </form>
     </section>
@@ -142,4 +666,5 @@
         <p class="copy">&copy; 2024 Recomendaciones de Películas en Netflix.</p>
     </footer>
 </body>
+
 </html>
