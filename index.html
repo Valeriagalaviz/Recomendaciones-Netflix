@@ -638,30 +638,32 @@
             </div>
             <!-- fin de cartel -->
         </span>
-
-
     </main>
     <!-- Sección de comentarios -->
     <section id="comentarios">
-        <h2 class="titulo-seccion">Recomienda tus Películas</h2>
-        <p id="sugerencia">Me te gustaria saber si consideras que debería agregar alguna película que te guste y no se
-            enceuntra en la sección de recomendaciones, puedes dejar tu sugerencia en el siguiente formulario!</p>
-        <form action="#" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-
-            <label for="genero">Género:</label>
-            <input type="text" id="genero" name="genero" required>
-
-            <label for="pelicula">Película Recomendada:</label>
-            <input type="text" id="pelicula" name="pelicula" required>
-
-            <label for="comentario">Comentario:</label>
-            <textarea id="comentario" name="comentario" rows="4" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
+        <h2 class="titulo-seccion">¿Te gustaría recomendar alguna película?</h2>
+        <span id="sugerencia"><p>Me gustaría saber si consideras que debería agregar alguna película que te guste y no se
+            enceuntra en la sección de recomendaciones, puedes dejar tu sugerencia en el siguiente formulario...<strong>Gracias por tu colaboración!</strong>&#128151;</p>
+        </span>
+        <div class="form-container">
+            <form action="#" method="post">
+                <label for="nombre">Nombre de usuario:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="genero">Género de la pelicula:</label>
+                <input type="text" id="genero" name="genero" required>
+    
+                <label for="pelicula">Película Recomendada:</label>
+                <input type="text" id="pelicula" name="pelicula" required>
+    
+                <label for="comentario">¿Por qué la recomiendas?</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+    
+                <button onclick="alert('Gracias por tu sugerencia!')">Enviar</button>
+            </form>
+        </div>
     </section>
+    <!-- Seccion del footer -->
     <footer>
         <p class="copy">&copy; 2024 Recomendaciones de Películas en Netflix.</p>
     </footer>
